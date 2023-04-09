@@ -1,0 +1,70 @@
+{
+
+    "soccer": {
+    "name": "Soccer",
+    "subscribers": 800000,
+    "description": "The football subreddit. News, results and discussion",
+    "posts": [
+        {
+
+            "title": "Marten de Roon to make pizza for more than 1,000 p€",
+            "author": "joeextreme"
+        },
+    {
+        "title": "Stephan Lichtsteiner has retired from professional",
+        "author": "odd person",
+        "img": "https://images.unsplash.com/photo-1670272505391-8efda8e7a99c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    },
+    {
+        "title": "OFFICIAL: Dani Parejo signs for Villareal.",
+        "author": "joeextreme"
+    }
+]
+    
+},
+    "chiken": {
+    "name": "Chicken",
+    "subscribers": 90000,
+    "description": "Here you can upload photos about chickens",
+    "posts": [
+        {
+
+            "title": "Marten de Roon to make pizza for more than 1,000 p€",
+            "author": "joeextreme",
+            "img" :"https://images.unsplash.com/photo-1677697464287-0b0365a338a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+        },
+    {
+        "title": "Stephan Lichtsteiner has retired from professional",
+        "author": "odd person",
+        "img" : "https://images.unsplash.com/photo-1677603004345-65632fb5be88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "title": "OFFICIAL: Dani Parejo signs for Villareal.",
+        "author": "joeextreme"
+    }
+]
+   
+},
+    "all migthy harvest": {
+    "name": "All Mighty Harvest",
+    "subscribers": 300000,
+    "description": "Here you can upload photos about Your Harvesting ",
+    "posts": [
+        {
+
+            "title": "Marten de Roon to make pizza for more than 1,000 p€",
+            "author": "joeextreme"
+        },
+    {
+        "title": "Stephan Lichtsteiner has retired from professional",
+        "author": "odd person"
+    },
+    {
+        "title": "OFFICIAL: Dani Parejo signs for Villareal.",
+        "author": "joeextreme"
+    }
+]
+   
+}
+}
+

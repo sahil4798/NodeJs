@@ -1,0 +1,30 @@
+<%- include('partials/head') %>
+
+
+
+    <%- include("partials/navbar")%>
+        <h1>
+            Brousing the
+            <%= data.name%>
+                subredit
+        </h1>
+        <h2>Discription : <%=data.description%>
+        </h2>
+        <h3>Subscribers : <%= data.subscribers %>
+        </h3>
+
+        <%for(let post of data.posts){%>
+            <article>
+                <p>
+                    <%=post.title%>- <b>
+                            <%=post.author%>
+                        </b>
+                </p>
+                <%if(post.img){%>
+                    <img src="<%=post.img%>" alt="">
+                    <%}%>
+            </article>
+            <%}%>
+
+
+                <%- include("partials/footer")%>

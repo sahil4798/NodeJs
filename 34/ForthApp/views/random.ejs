@@ -1,0 +1,14 @@
+<%- include("partials/head")%>
+
+
+    <h1>Your Random number is :
+        <!-- <%= Math.floor(Math.random()*7)%>  -->
+        <%=num%>
+    </h1>
+
+    <% if(num%2===0){ %>
+        <h2>Number is even</h2>
+        <% } else{%>
+            <h2>Number is odd</h2>
+            <%}%>
+                <%- include("partials/footer")%>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Comment </title>
+</head>
+
+<body>
+    <h1>Add new Comment</h1>
+    <form action="http://localhost:8900/comments" method="post">
+        <section>
+            <label for="username">Username</label>
+            <input id="username" type="text" , placeholder="username
+            " name="username">
+        </section>
+        <section>
+            <br>
+            <label for="comment">Write comment here</label>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="commnet"></textarea>
+        </section>
+        <button>post</button>
+    </form>
+
+    <!-- <a href="http://localhost:8900/comments">Back to Comment</a> -->
+    <a href="/comments">Back to index</a>
+</body>
+
+</html>
